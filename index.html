@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affitti</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Affitti</h1>
+        
+        <div id="item-list" class="item-list">
+            <h2 class="list-title">Oggetti In Affitto</h2>
+            <div id="items"></div>
+        </div>
+
+        <hr>
+
+        <h2 class="form-title">Inserisci Nuovo Oggetto</h2>
+        <form id="item-form">
+            <input type="text" id="item-name" placeholder="Nome oggetto" required>
+            <input type="number" id="item-price" placeholder="Prezzo di affitto" required>
+            <input type="number" id="item-duration" placeholder="Durata affitto" required>
+            <select id="duration-unit">
+                <option value="minutes">Minuti</option>
+                <option value="hours">Ore</option>
+                <option value="days">Giorni</option>
+            </select>
+            <button type="submit">Aggiungi</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

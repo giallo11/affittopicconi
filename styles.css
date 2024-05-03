@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+input, select, button {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #000; /* Testo nero */
+}
+
+.remove-btn {
+    float: right;
+    cursor: pointer;
+    color: red;
+}
+
+.title {
+    color: white; /* Testo bianco */
+}
+
+.list-title {
+    margin-top: 20px;
+}
+
+.form-title {
+    margin-top: 40px;
+}
